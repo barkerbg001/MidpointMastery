@@ -46,7 +46,7 @@ Version 0.1:
 
 3. Midjourney
 ```
-"by peter mohrbacher,  hdr, Sunsets, artstation, 4k 3d, by wayne barlowe,  rossdraws global illumination, terragen, hyper detailed, Animal T-Shirt Design, art by atey ghailan, battle field, epic, art by craig mullins, full hd, by craig mullins, Anime / Manga"
+"ray tracing, cyberpunk art, trending on pixiv, microbes, Your Name anime art style, radiant light, full hd, realistic landscape, Korean light novel cover, silver, scary, world war, Flat Design Vector Illustrations, Anime Avatar, Funky pop, photorealistic dramatic liquid anime girl, gold, Flat Design, art by greg rutkowski, glass"
 ```
 ![rdm-figure](img/3.png)
 
