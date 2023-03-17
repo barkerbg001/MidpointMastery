@@ -50,31 +50,6 @@ Version 0.1:
 ```
 ![rdm-figure](img/3.png)
 
-Version 0.2:
-1. Midjourney
-```
-"fanbox, drawing, 4-bit, wet paint, weta FX, by wlop, art by Ko Young Hoon, art by craig mullins, beautiful lighting, by hajime sorayama,  Octal, puffy paint, volumetric lighting, art by atey ghailan, tones of black, by Ralph Steadman, logo"
-```
-![rdm-figure](img/4.png)
-
-2. Midjourney
-```
-"erode, vertex, modeling, subdimensional, convex, terragen, storybook illustration, bussiness card, crosshatch, vfx, GLSL shaders, by makoto shinkai, rossdraws global illumination"
-```
-![rdm-figure](img/5.png)
-
-3. Midjourney
-```
-"by atey ghailan, cinematic, radiant light, rose, scrapbooking, by peter mohrbacher,  12-bit, flowers, postage stamp, post-apocalypse, character design, art by john Constable, fanbox"
-```
-![rdm-figure](img/6.png)
-
-4. Midjourney
-```
-"light painting, art by john kenn mortense, baroque, art nouveau, space, neon, telephoto, cyclic, art by lemma guya, radiant light, light nover, vray render, unreal engine, tornadic"
-```
-![rdm-figure](img/7.png)
-
 # <p align="center">For more example going on:</p>
 <h3 align="center">
 	<a href="https://youtube.com/@Barkerbg001Shorts" target='_blank'>YouTube</a><br>
