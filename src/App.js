@@ -1,4 +1,5 @@
 import './App.css';
+import logo from './logo.svg';
 import { useState } from 'react';
 
 function prompts(prompts = "pr1.txt", num = 10, artists = 2) {
