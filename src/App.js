@@ -71,15 +71,31 @@ function App() {
   };
 
   return (
-    <div>
-      <button onClick={handleGeneratePrompts}>Generate Prompts</button>
-      <ul>
-        <li>{generatedPrompts.join(', ')}</li>
-      </ul>
-      <div>
-        <p>Generated Prompts: {generatedPrompts.length}</p>
+    // <div>
+    //   <button onClick={handleGeneratePrompts}>Generate Prompts</button>
+    //   <ul>
+    //     <li>{generatedPrompts.join(', ')}</li>
+    //   </ul>
+    //   <div>
+    //     <p>Generated Prompts: {generatedPrompts.length}</p>
 
-      </div>
+    //   </div>
+    // </div>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
