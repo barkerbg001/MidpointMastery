@@ -57,7 +57,7 @@ function App() {
   const [generatedPrompts, setGeneratedPrompts] = useState([]);
 
   const handleGeneratePrompts = () => {
-    prompts("pr1.txt", 10, 2)
+    prompts("pr1.txt", 20, 2)
       .then((promptsArray) => {
         setGeneratedPrompts([...promptsArray]); // add spread operator here
       })
