@@ -1,18 +1,18 @@
 function prompts(prompts = "pr1.txt", num = 10, artists = 2) {
     let prompt = [];
     if (prompts === "pr1.txt") {
-      fetch("pr1.txt")
+      return fetch("pr1.txt")
         .then((response) => response.text())
         .then((text) => {
           prompt = text.split("\n");
-          generate(prompt, num, artists);
+          return generate(prompt, num, artists);
         });
     } else if (prompts === "pr2.txt") {
-      fetch("pr2.txt")
+      return fetch("pr2.txt")
         .then((response) => response.text())
         .then((text) => {
           prompt = text.split("\n");
-          generate(prompt, num, artists);
+          return generate(prompt, num, artists);
         });
     }
   
@@ -41,7 +41,7 @@ function prompts(prompts = "pr1.txt", num = 10, artists = 2) {
         }
       }
   
-      console.log([...new Set(generated)].join(", "));
+      return [...new Set(generated)].join(", ");
     }
   }
 export default prompts;  
