@@ -64,9 +64,7 @@ function App() {
       .catch((error) => {
         console.error(error);
       });
-  };
 
-  const handleCopyToClipboard = () => {
     const textToCopy = generatedPrompts.join(', ');
     navigator.clipboard.writeText(textToCopy);
   };
@@ -74,15 +72,12 @@ function App() {
   return (
     <div>
       <button onClick={handleGeneratePrompts}>Generate Prompts</button>
-      <button onClick={handleCopyToClipboard}>Copy to Clipboard</button>
       <ul>
-        {generatedPrompts.map((prompt, index) => (
-          <li key={index}>{prompt}</li>
-        ))}
+        <li>{generatedPrompts.join(', ')}</li>
       </ul>
       <div>
         <p>Generated Prompts: {generatedPrompts.length}</p>
-        
+
       </div>
     </div>
   );
