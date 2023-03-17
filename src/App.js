@@ -71,13 +71,19 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img  src={logo} className="App-logo" alt="logo" />
-        {/* <p>
+    <div>
+      <img onClick={handleGeneratePrompts} src={logo} className="App-logo" alt="logo" />
+        <p>
         {generatedPrompts.join(', ')}
-        </p> */}
-      </header>
+        </p>
+      <button onClick={handleGeneratePrompts}>Generate Prompts</button>
+      <ul>
+        <li>{generatedPrompts.join(', ')}</li>
+      </ul>
+      <div>
+        <p>Generated Prompts: {generatedPrompts.length}</p>
+
+      </div>
     </div>
   );
 }
