@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import prompts from './Prompt';
+import { useState } from 'react';
+import { prompts } from './prompts';
 
 function App() {
-  prompts.prompts();
+  const [generatedPrompts, setGeneratedPrompts] = useState([]);
+
+  const handleGeneratePrompts = () => {
+    const promptsArray = prompts("pr1.txt", 10, 2);
+    setGeneratedPrompts(promptsArray);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <button onClick={handleGeneratePrompts}>Generate Prompts</button>
+      <ul>
+        {generatedPrompts.map((prompt, index) => (
+          <li key={index}>{prompt}</li>
+        ))}
+      </ul>
     </div>
   );
 }
