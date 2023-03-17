@@ -34,7 +34,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 Version 0.1:
 1. Midjourney
 ```
-"galaxy, art by ismail inceoglu, render, detailed, photorealistic, photorealistic dramatic anime boy, trending on pixiv, full hd, magic circle, landscape, photorealistic, sunsets, flowers, global illumination, block cities, digital painting, mirrors"
+"art by peter mohrbacher, ice gate, horror, artworks, photorealistic dramatic anime boy, Your Name anime art style, beautiful landscape, world war 2, biomechanical, Korean light novel cover, sharp contrast, other dimention, render, ivy, unreal engine, visual novel, landscape, photorealistic dramatic liquid anime girl, game, dream word"
 ```
 ![rdm-figure](img/1.png)
 
