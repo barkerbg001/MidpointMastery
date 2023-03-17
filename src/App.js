@@ -73,7 +73,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img onClick={handleGeneratePrompts} src={logo} className="App-logo" alt="logo" />
+        <img  src={logo} className="App-logo" alt="logo" />
         {/* <p>
         {generatedPrompts.join(', ')}
         </p> */}
