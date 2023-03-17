@@ -3,13 +3,13 @@ import './App.css';
 import prompts from './Prompt';
 
 function App() {
-  var a = prompts.prompts();
+  prompts.prompts();
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          {a}
+          
         </p>
         <a
           className="App-link"
