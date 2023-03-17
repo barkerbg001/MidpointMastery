@@ -89,7 +89,6 @@ function App() {
         <button onClick={handleGeneratePrompts}>Click me to Generate a Random Prompt</button>
         <a
           className="App-link"
-          href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
