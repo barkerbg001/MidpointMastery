@@ -40,7 +40,7 @@ Version 0.1:
 
 2. Midjourney
 ```
-"vray render, art by cory loftis, cinematic, landscape, fanart, Animal T-Shirt Design, Vector Illustrations, glitch art, art by makoto shinkai, art by atey ghailan, 8k, photorealistic dramatic, art by wlop, Japenese light novel, creepy, post-apocalypse, mirrors"
+"Synthwave, scary art, lord of the rings, Sci-Fi, photorealistic dramatic anime, art by alphonse mucha, Korean light novel cover, epic sky, vfx, volumetric lighting, landscape, photorealistic dramatic liquid anime boy, cinematic, art by atey ghailan, detailed face, stunning, stylized, Nature Landscape Backgrounds, epic, game"
 ```
 ![rdm-figure](img/2.png)
 
