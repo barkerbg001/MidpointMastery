@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { prompts } from './Prompt';
+import prompts from './Prompt';
 
 function App() {
   const [generatedPrompts, setGeneratedPrompts] = useState([]);
