@@ -59,6 +59,7 @@ function App() {
   const [generatedPrompts, setGeneratedPrompts] = useState([]);
 
   const handleGeneratePrompts = () => {
+    console.log("I have been clicked!");
     prompts("pr1.txt", 20, 2)
       .then((promptsArray) => {
         setGeneratedPrompts([...promptsArray]); // add spread operator here
@@ -85,9 +86,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img onClick={handleGeneratePrompts} src={logo} className="App-logo" alt="logo" />
-        <p>
-          Click the Wheel to Generate Prompts
-        </p>
+        <button onClick={handleGeneratePrompts}>Click me to Generate a Random Prompt</button>
         <a
           className="App-link"
           href="https://reactjs.org"
