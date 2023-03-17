@@ -70,7 +70,7 @@ function App() {
     const textToCopy = generatedPrompts.join(', ');
     navigator.clipboard.writeText(textToCopy);
   };
-  
+
   return (
     <div>
       <button onClick={handleGeneratePrompts}>Generate Prompts</button>
@@ -80,6 +80,10 @@ function App() {
           <li key={index}>{prompt}</li>
         ))}
       </ul>
+      <div>
+        <p>Generated Prompts: {generatedPrompts.length}</p>
+        
+      </div>
     </div>
   );
 }
