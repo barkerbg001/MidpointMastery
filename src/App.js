@@ -59,7 +59,7 @@ function App() {
   const handleGeneratePrompts = () => {
     prompts("pr1.txt", 10, 2)
       .then((promptsArray) => {
-        setGeneratedPrompts(promptsArray);
+        setGeneratedPrompts([...promptsArray]); // add spread operator here
       })
       .catch((error) => {
         console.error(error);
