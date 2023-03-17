@@ -63,6 +63,8 @@ function App() {
     prompts("pr1.txt", 20, 2)
       .then((promptsArray) => {
         setGeneratedPrompts([...promptsArray]); // add spread operator here
+        const textToCopy = promptsArray.join(', ');
+        navigator.clipboard.writeText(textToCopy);
       })
       .catch((error) => {
         console.error(error);
