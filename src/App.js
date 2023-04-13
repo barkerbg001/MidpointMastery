@@ -60,7 +60,7 @@ function App() {
 
   const handleGeneratePrompts = () => {
     console.log("I have been clicked!");
-    prompts("pr1.txt", 20, 2)
+    prompts("pr2.txt", 20, 2)
       .then((promptsArray) => {
         setGeneratedPrompts([...promptsArray]); // add spread operator here
         const textToCopy = promptsArray.join(', ');
